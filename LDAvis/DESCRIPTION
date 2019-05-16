@@ -1,0 +1,42 @@
+Package: LDAvis
+Title: Interactive Visualization of Topic Models
+Version: 0.3.5
+Authors@R: c(
+   person("Carson", "Sievert", role = c("aut", "cre"), email = "cpsievert1@gmail.com", comment = c(ORCID = "0000-0002-4958-2844")), 
+   person("Kenny", "Shirley", role = "aut", email = "kshirley@research.att.com"), 
+   person("Christopher", "Baker", role = "ctb", email = "chriscrewbaker@gmail.com")
+   )
+Description: Tools to create an interactive web-based visualization of a
+    topic model that has been fit to a corpus of text data using
+    Latent Dirichlet Allocation (LDA). Given the estimated parameters of
+    the topic model, it computes various summary statistics as input to
+    an interactive visualization built with 'D3.js' that is accessed via
+    a browser. The goal is to help users interpret the topics in their
+    'LDA' topic model.
+Depends: R (>= 3.4.0)
+Imports: proxy, RJSONIO, parallel
+License: MIT + file LICENSE
+Suggests: mallet, lda, topicmodels, gistr (>= 0.0.8.99), servr, shiny,
+        knitr, rmarkdown, digest, htmltools
+LazyData: true
+VignetteBuilder: knitr
+URL: https://github.com/cpsievert/LDAvis
+BugReports: https://github.com/cpsievert/LDAvis/issues
+RoxygenNote: 6.0.1
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: LDAvis
+RemoteUsername: cpsievert
+RemoteRef: master
+RemoteSha: 5067f7b847caa3de4eabc61346a0bfe88834b892
+GithubRepo: LDAvis
+GithubUsername: cpsievert
+GithubRef: master
+GithubSHA1: 5067f7b847caa3de4eabc61346a0bfe88834b892
+NeedsCompilation: no
+Packaged: 2019-05-16 15:56:12 UTC; ayonbhattacharya
+Author: Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),
+  Kenny Shirley [aut],
+  Christopher Baker [ctb]
+Maintainer: Carson Sievert <cpsievert1@gmail.com>
+Built: R 3.5.1; ; 2019-05-16 15:56:12 UTC; unix
